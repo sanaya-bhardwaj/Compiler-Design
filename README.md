@@ -1,6 +1,6 @@
 ## CodeNex: Compiler Design Project 
 
-The Compiler Design Project aims to create a compiler for a simple programming language. This project involves various stages of compiler construction, including lexical analysis, syntax analysis, semantic analysis, optimization, and code generation. The primary goal is to provide a hands-on understanding of compiler design principles and the challenges involved in translating high-level programming languages to machine code or intermediate representations.
+This Compiler Design Project aims to create a compiler for a simple programming language. This project involves various stages of compiler construction, including lexical analysis, syntax analysis, semantic analysis, optimization, and code generation. The primary goal is to provide a hands-on understanding of compiler design principles and the challenges involved in translating high-level programming languages to machine code or intermediate representations.
 
 ## Features
 
