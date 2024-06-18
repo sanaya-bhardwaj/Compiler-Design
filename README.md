@@ -139,17 +139,24 @@ Target Machine Code or Bytecode.
 
 *Output:* Annotated syntax tree (checks semantic rules and validates meaning).
 
-Intermediate Code Generation:
+**Intermediate Code Generation:**
 
-Input: Annotated syntax tree.
-Output: Intermediate code (e.g., Three-address code).
-Code Optimization:
+*Input:* Annotated syntax tree.
 
-Input: Intermediate code.
-Output: Optimized intermediate code (improves efficiency).
-Code Generation:
+*Output:* Intermediate code (e.g., Three-address code).
 
-Input: Optimized intermediate code.
-Output: Target machine code or bytecode (executable code).
-Conclusion
+**Code Optimization:**
+
+*Input:* Intermediate code.
+
+*Output:* Optimized intermediate code (improves efficiency).
+
+**Code Generation:**
+
+*Input:* Optimized intermediate code.
+
+*Output:* Target machine code or bytecode (executable code).
+
+## Conclusion
+
 Understanding the phases of a compiler is essential for building efficient and reliable software systems. Each phase contributes to translating high-level programming languages into executable machine code or other target formats, ensuring correct and optimized program execution.
