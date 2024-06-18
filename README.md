@@ -39,11 +39,16 @@ This Compiler Design Project aims to create a compiler for a simple programming 
 
 - A solid foundation for further study or work in the field of compilers and programming languages.
 
-Phases of a Compiler
-1. Lexical Analysis
-Objective:
-Convert the source code into a sequence of tokens.
-Identifies and categorizes tokens such as keywords, identifiers, operators, and literals.
+## Phases of a Compiler
+
+## 1. Lexical Analysis
+
+**Objective:**
+
+- Convert the source code into a sequence of tokens.
+
+- Identifies and categorizes tokens such as keywords, identifiers, operators, and literals.
+
 Tools:
 Lexical Analyzer or Lexer generates tokens from the input source code.
 Output:
