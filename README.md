@@ -49,47 +49,77 @@ This Compiler Design Project aims to create a compiler for a simple programming 
 
 - Identifies and categorizes tokens such as keywords, identifiers, operators, and literals.
 
-Tools:
+**Tools:**
 Lexical Analyzer or Lexer generates tokens from the input source code.
-Output:
+
+**Output:**
 Token stream.
-2. Syntax Analysis
-Objective:
-Ensure the sequence of tokens conforms to the rules of the grammar for the programming language.
-Constructs a parse tree or syntax tree representing the syntactic structure of the program.
-Tools:
+
+## 2. Syntax Analysis
+
+**Objective:**
+
+- Ensure the sequence of tokens conforms to the rules of the grammar for the programming language.
+  
+- Constructs a parse tree or syntax tree representing the syntactic structure of the program.
+
+**Tools:**
 Parser verifies the syntactic correctness using a grammar.
-Output:
+
+**Output:**
 Abstract Syntax Tree (AST).
-3. Semantic Analysis
-Objective:
-Checks the meaning of statements and expressions beyond their syntax.
-Ensures semantic rules defined by the language are adhered to (e.g., type checking).
-Tasks:
+
+## 3. Semantic Analysis
+
+**Objective:**
+
+- Checks the meaning of statements and expressions beyond their syntax.
+
+- Ensures semantic rules defined by the language are adhered to (e.g., type checking).
+
+**Tasks:**
 Type checking, variable declaration checks, function call validations.
-Output:
+
+**Output:**
 Annotated AST or Symbol Table.
-4. Intermediate Code Generation
-Objective:
-Translates the source code or AST into an intermediate representation (IR).
-Simplifies the process of optimization and code generation.
-Output:
+
+## 4. Intermediate Code Generation
+
+**Objective:***
+
+- Translates the source code or AST into an intermediate representation (IR).
+
+- Simplifies the process of optimization and code generation.
+
+**Output:**
 Intermediate Code (e.g., Three-address code, Quadruples, Abstract Machine Code).
-5. Code Optimization
-Objective:
-Improves the intermediate code to produce a more efficient version.
-Enhances program speed and reduces memory usage.
-Tasks:
+
+## 5. Code Optimization
+
+**Objective:**
+
+- Improves the intermediate code to produce a more efficient version.
+  
+- Enhances program speed and reduces memory usage.
+
+**Tasks:**
 Constant folding, dead code elimination, loop optimization, register allocation.
-Output:
+
+**Output:**
 Optimized Intermediate Code.
-6. Code Generation
-Objective:
-Translates the optimized intermediate code into the target machine code or another intermediate language.
-Outputs executable code specific to the target architecture.
-Output:
+
+## 6. Code Generation
+
+**Objective:**
+
+- Translates the optimized intermediate code into the target machine code or another intermediate language.
+  
+- Outputs executable code specific to the target architecture.
+  
+**Output:**
 Target Machine Code or Bytecode.
-Example Flow
+
+## Example Flow
 Lexical Analysis:
 
 Input: Source code in a high-level language.
