@@ -85,7 +85,7 @@ Annotated AST or Symbol Table.
 
 ## 4. Intermediate Code Generation
 
-**Objective:***
+**Objective:**
 
 - Translates the source code or AST into an intermediate representation (IR).
 
