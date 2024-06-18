@@ -120,18 +120,25 @@ Optimized Intermediate Code.
 Target Machine Code or Bytecode.
 
 ## Example Flow
-Lexical Analysis:
 
-Input: Source code in a high-level language.
-Output: Token stream (tokens identified and categorized).
-Syntax Analysis:
+**Lexical Analysis:**
 
-Input: Token stream from Lexical Analysis.
-Output: Syntax tree (represents the syntactic structure of the program).
-Semantic Analysis:
+*Input:* Source code in a high-level language.
 
-Input: Syntax tree.
-Output: Annotated syntax tree (checks semantic rules and validates meaning).
+*Output:* Token stream (tokens identified and categorized).
+
+**Syntax Analysis:**
+
+*Input:* Token stream from Lexical Analysis.
+
+*Output:* Syntax tree (represents the syntactic structure of the program).
+
+**Semantic Analysis:**
+
+*Input:* Syntax tree.
+
+*Output:* Annotated syntax tree (checks semantic rules and validates meaning).
+
 Intermediate Code Generation:
 
 Input: Annotated syntax tree.
